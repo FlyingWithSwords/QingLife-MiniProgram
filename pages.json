@@ -1,0 +1,107 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/welcome/index",
+			"style": {
+				"navigationBarTitleText": "欢迎页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/tabbar",
+			"style": {
+				"navigationBarTitleText": "轻食Life",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/salary",
+			"style": {
+				"navigationBarTitleText": "薪资排行",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/aboutMe",
+			"style": {
+				"navigationBarTitleText": "关于作者",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/mentalTest/index",
+			"style": {
+				"navigationBarTitleText": "健康问卷",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/mentalTest/explain",
+			"style": {
+				"navigationBarTitleText": "问卷规则说明"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		{
+			"path": "pages/recipes/recipes",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		{
+			"path": "pages/project/list",
+			"style": {
+				"navigationBarTitleText": "项目展示",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/project/project",
+			"style": {
+				"navigationBarTitleText": "项目展示",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/qlife",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "qing_tools",
+			"pages": [{
+					"path": "calcompute/calcompute",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "foodpic/foodpic",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "shopmap/shopmap",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

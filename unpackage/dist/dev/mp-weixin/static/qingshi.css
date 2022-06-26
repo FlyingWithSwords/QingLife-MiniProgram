@@ -1,0 +1,14 @@
+/*
+  QingShi for uniApp v1.0.0 | by 剑漫羽游 2021-05-06 22:46:00
+*/
+
+.text-default,
+.line-default,
+.lines-default {
+	color: #45bb8f;
+}
+.bg-default {
+	background-image: linear-gradient(45deg, #9fcc66, #55bb4d, #45bb8f);
+	filter: grayscale(0.3);
+	color: #ffffff;
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "轻食Life",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "index": "/pages/index/inedx",
+    "recipes": "/pages/index/recipes",
+    "tools": "/pages/index/main",
+    "news": "/pages/index/news",
+    "me": "/pages/index/me"
+  }
+}
