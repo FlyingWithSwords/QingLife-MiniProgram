@@ -54,7 +54,7 @@
 </template>
 
 <script>
-	import index from "./inedx.vue";	//首页
+	import index from "./index.vue";	//首页
 	import recipes from "./recipes.vue";	//技术视频
 	import tools from "./main.vue";	//宅家学
 	import news from "./news.vue";	//资讯

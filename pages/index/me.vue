@@ -48,17 +48,17 @@
 		<block>
 			<view class='padding flex text-center text-grey bg-white shadow-warp-my'>
 				<view class='flex flex-sub flex-direction solid-right'>
-					<view class="text-xxl text-orange">11.6k+</view>
+					<view class="text-xxl text-orange">10</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-hot'></text> 访客</view>
 				</view>
 				<view class='flex flex-sub flex-direction solid-right'>
-					<view class="text-xxl text-blue">8.6k</view>
+					<view class="text-xxl text-blue">3</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-share'></text> 分享</view>
 				</view>
 				<view class='flex flex-sub flex-direction'>
-					<view class="text-xxl text-red">2.6k+</view>
+					<view class="text-xxl text-red">6</view>
 					<view class="margin-top-sm">
 						<text class='cuIcon-like'></text> 点赞</view>
 				</view>
@@ -85,7 +85,7 @@
 				
 				<view class="cu-item " @click="goqlife">
 					<button class='content cu-btn'>
-						<image src='../../static/me/icon/bianqian.png' class='png' mode='aspectFit'></image>
+						<image src='../../static/me/icon/qinglife.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>轻Life社区</text>
 					</button>
 					<view class="action">
@@ -95,14 +95,14 @@
 
 				<view class="cu-item " @click="mentalTest">
 					<button class='content cu-btn'>
-						<image src='../../static/me/icon/bianqian.png' class='png' mode='aspectFit'></image>
+						<image src='../../static/me/icon/diaocha.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>健康调查</text>
 					</button>
 				</view>
 				
 				<view class="cu-item">
 					<button class='content cu-btn' open-type="share">
-						<image src='../../static/me/icon/lvhang.png' class='png' mode='aspectFit'></image>
+						<image src='../../static/me/icon/fenxiang.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>分享小程序</text>
 					</button>
 				</view>
@@ -124,7 +124,7 @@
 
 				<view class="cu-item" @click="callPhoneNumber" data-number="13112515125">
 					<view class='content'>
-						<image src='../../static/me/icon/dengta.png' class='png' mode='aspectFit'></image>
+						<image src='../../static/me/icon/hezhuo.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>商家合作</text>
 					</view>
 					<!-- <view class="action">
@@ -134,13 +134,13 @@
 
 				<view class="cu-item">
 					<button class='content cu-btn' open-type="feedback">
-						<image src='../../static/me/icon/chucuo.png' class='png' mode='aspectFit'></image>
+						<image src='../../static/me/icon/fankui.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>问题反馈</text>
 					</button>
 				</view>
 				<view class="cu-item">
 					<button class='content cu-btn' @click="goAboutMe">
-						<image src='../../static/me/icon/xiaoxi.png' class='png' mode='aspectFit'></image>
+						<image src='../../static/me/icon/guanyu.png' class='png' mode='aspectFit'></image>
 						<text class='text-lg margin-sm'>关于轻食Life</text>
 					</button>
 				</view>

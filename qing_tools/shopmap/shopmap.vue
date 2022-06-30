@@ -67,10 +67,8 @@
 		data() {
 			return {
 				markerImg: [
-					'../../static/poi/gasstation.png',
-					'../../static/poi/parking.png',
-					'../../static/poi/wc.png',
-					'../../static/poi/shop.png'
+					'../../static/poi/posit-0.png',
+					'../../static/poi/posit-1.png'
 				],
 				initHeight:0,
 				navIndex: 0,
@@ -129,9 +127,9 @@
 							this.covers.push({
 								latitude: d[i].posit.split(',')[1],
 								longitude: d[i].posit.split(',')[0],
-								iconPath: this.markerImg[2],
-								width: 10,
-								height: 10,
+								iconPath: this.markerImg[1],
+								width: 18,
+								height: 18,
 								label: {
 									content: this.huanhang(d[i].busname),
 									color: '#000000',
@@ -185,9 +183,9 @@
 						this.covers.push({
 							latitude: data.location.split(',')[1],
 							longitude: data.location.split(',')[0],
-							iconPath: this.markerImg[this.navIndex],
-							width: 10,
-							height: 10,
+							iconPath: this.markerImg[0],
+							width: 18,
+							height: 18,
 							// callout: {
 							// 	content: this.huanhang(data.name),
 							// 	color: '#0707f7',

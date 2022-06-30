@@ -31,7 +31,7 @@
 									<input type="number" name="age1" maxlength="20" placeholder="请输入您的年龄(周岁)" v-model="age1" />
 								</view>
 								<view class="t-a">
-									<image src="https://zhoukaiwen.com/img/loginImg/yz.png"></image>
+									<image src="/static/icon/sex.png"></image>
 									<view class="line"></view>
 									<picker @change="pickerChange_sex" :value="array_s[index_s]" :range="array_s" style="position: static;">
 										<view v-if="index_s==-1" style="color: #888;">请选择性别</view>
@@ -50,12 +50,12 @@
 						<view class="page-box">
 							<form class="form-all" @submit="onFood">
 								<view class="t-a">
-									<image src="/static/icon/height.png"></image>
+									<image src="/static/icon/fweight.png"></image>
 									<view class="line"></view>
-									<input type="number" name="food2" maxlength="20" placeholder="请输入食物的克数(g)" v-model="yzm" />
+									<input type="number" name="food2" maxlength="20" placeholder="请输入食物重量(g)" v-model="food2" />
 								</view>								
 								<view class="t-a">
-									<image src="https://zhoukaiwen.com/img/loginImg/yz.png"></image>
+									<image src="/static/icon/ftype.png"></image>
 									<view class="line"></view>
 									<picker @change="pickerChange_food" :value="array_f[index_f]" :range="array_f" style="position: static;">
 										<view v-if="index_f==-1" style="color: #888;">请选择食物种类</view>
@@ -74,17 +74,17 @@
 						<view class="page-box">
 							<form class="form-all" @submit="onSport">
 								<view class="t-a">
-									<image src="/static/icon/height.png"></image>
+									<image src="/static/icon/stime.png"></image>
 									<view class="line"></view>
-									<input type="number" name="time3" maxlength="20" placeholder="请输入您的运动时间(min)" v-model="yzm" />
+									<input type="number" name="time3" maxlength="20" placeholder="请输入您的运动时间(min)" v-model="time3" />
 								</view>
 								<view class="t-a">
 									<image src="/static/icon/weight.png"></image>
 									<view class="line"></view>
-									<input type="number" name="weight3" placeholder="请输入您的体重(kg)" maxlength="24" v-model="phone" />
+									<input type="number" name="weight3" placeholder="请输入您的体重(kg)" maxlength="24" v-model="weight3" />
 								</view>
 								<view class="t-a">
-									<image src="https://zhoukaiwen.com/img/loginImg/yz.png"></image>
+									<image src="/static/icon/stype.png"></image>
 									<view class="line"></view>
 									<picker @change="pickerChange_sport" :value="array_sp[index_sp]" :range="array_sp" style="position: static;">
 										<view v-if="index_sp==-1" style="color: #888;">请选择运动类型</view>
@@ -103,9 +103,9 @@
 						<view class="page-box">
 							<form class="form-all" @submit="onUnit">
 								<view class="t-a">
-									<image src="/static/icon/height.png"></image>
+									<image src="/static/icon/fhot.png"></image>
 									<view class="line"></view>
-									<input type="number" name="hot4" maxlength="20" placeholder="请输入您的食物热量(kj)" v-model="yzm" />
+									<input type="number" name="hot4" maxlength="20" placeholder="请输入您的食物热量(kj)" v-model="hot4" />
 								</view>
 								<button form-type="submit" class="bg-default">提 交</button>
 							</form>
@@ -143,6 +143,13 @@ export default {
 			index_s: -1,
 			index_f: -1,
 			index_sp: -1,
+			height1: '',
+			weight1: '',
+			age1: '',
+			food2: '',
+			time3: '',
+			weight3: '',
+			hot4: '',
 			list: [
 				{
 					name: '每日摄入'

@@ -56,17 +56,12 @@
             "postcss" : true
         },
         "usingComponents" : true,
-        "plugins" : {
-            "tencentvideo" : {
-                "version" : "1.3.17",
-                "provider" : "wxa75efa648b60994b"
-            }
-        },
         "permission" : {
             "scope.userLocation" : {
                 "desc" : "获取用户位置，仅用于演示定位功能"
             }
-        }
+        },
+		"lazyCodeLoading": "requiredComponents"
     },
     "mp-alipay" : {
         "usingComponents" : true

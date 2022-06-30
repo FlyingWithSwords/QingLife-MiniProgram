@@ -2,7 +2,7 @@
 	<view class="u-wrap">
 		<cu-custom bgColor="bg-default" :isBack="false">
 			<!-- <block slot="backText">返回</block> -->
-			<block slot="content">技术栈</block>
+			<block slot="content">食谱</block>
 		</cu-custom>
 		
 		<view class="u-search-box">
@@ -133,7 +133,7 @@
 	}
 
 	.u-search-box {
-		padding: 18rpx 30rpx;
+		padding: 12rpx 30rpx;
 	}
 
 	.u-menu-wrap {

@@ -18,7 +18,9 @@
       "pages": [
         "calcompute/calcompute",
         "foodpic/foodpic",
-        "shopmap/shopmap"
+        "shopmap/shopmap",
+        "weekrec/weekrec",
+        "hearecord/hearecord"
       ]
     }
   ],
@@ -28,17 +30,12 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "plugins": {
-    "tencentvideo": {
-      "version": "1.3.17",
-      "provider": "wxa75efa648b60994b"
-    }
-  },
   "permission": {
     "scope.userLocation": {
       "desc": "获取用户位置，仅用于演示定位功能"
     }
   },
+  "lazyCodeLoading": "requiredComponents",
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom",
     "tn-custom": "/components/TnCustom/TnCustom"

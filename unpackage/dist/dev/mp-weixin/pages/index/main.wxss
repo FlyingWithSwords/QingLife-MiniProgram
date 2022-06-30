@@ -1,4 +1,7 @@
 
+page{
+		display: block;
+}
 .nav-list {
 		display: flex;
 		flex-wrap: wrap;
@@ -95,7 +98,6 @@
 .text-light {
 		font-weight: 300;
 }
-
 	/* 
   2f9bfe 主色蓝
   189eff 配色蓝
@@ -230,7 +232,6 @@
 .shadowimport {
 		box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0.1) !important;
 }
-
 	/*  */
 .bg-kuxuan1 {
 		color: #fff;

@@ -3,14 +3,14 @@
 	<view>
 		<cu-custom bgColor="bg-default" :isBack="false">
 			<!-- <block slot="backText">返回</block> -->
-			<block slot="content">文章资讯</block>
+			<block slot="content">资讯</block>
 		</cu-custom>
 		
 		<view class="cu-card article no-card">
 			<view class="cu-item shadow borderBottom" v-for="(item, index) in newsList" :key="index" @click="goNews(item.id)">
 				<view class="title"><view class="text-cut">{{item.title}}</view></view>
 				<view class="content">
-					<image :src="item.tImg" mode="aspectFit"></image>
+					<image :src="item.pic" mode="aspectFit"></image>
 					<view class="desc">
 						<rich-text class="text-content" :nodes="item.content.substring(0,200)"></rich-text>
 						<view class="margin-top-xs">

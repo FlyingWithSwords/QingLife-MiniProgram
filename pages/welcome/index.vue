@@ -2,7 +2,7 @@
 <template>
 	<view class="container">
 	  <image class="user-dream" src="../../static/wellogo.png"></image>
-	  <image class="name" src="../../static/welcome.gif"></image>
+	  <image class="name" src="http://47.112.114.153/upload/welcome.gif"></image>
 	  <!-- <image class="load" bindtap="onTap" src="/images/load.gif"></image> -->
 	  <view class="load tui-loading-row">
 	    <view class="tui-loading-cell" @click="onTap">

@@ -94,6 +94,16 @@
 					"style": {
 						"navigationStyle": "custom"
 					}
+				}, {
+					"path": "weekrec/weekrec",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}, {
+					"path": "hearecord/hearecord",
+					"style": {
+						"navigationStyle": "custom"
+					}
 				}
 			]
 		}

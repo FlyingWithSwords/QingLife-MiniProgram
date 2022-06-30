@@ -1,7 +1,7 @@
 <!-- 心灵保健 -->
 <template>
 	<view class="contaier" :style="{ minHeight: getHeight + 'px' }">
-		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
+		<cu-custom bgColor="bg-default" :isBack="true">
 			<block slot="backText">返回</block>
 			<block slot="content">健康调查</block>
 		</cu-custom>

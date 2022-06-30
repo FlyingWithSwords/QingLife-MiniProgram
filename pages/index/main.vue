@@ -65,6 +65,9 @@
 </script>
 
 <style>
+	page{
+		display: block;
+	}
 	.nav-list {
 		display: flex;
 		flex-wrap: wrap;

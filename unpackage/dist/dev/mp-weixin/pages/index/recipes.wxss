@@ -30,7 +30,7 @@
   flex-direction: column;
 }
 .u-search-box.data-v-5f080e82 {
-  padding: 18rpx 30rpx;
+  padding: 12rpx 30rpx;
 }
 .u-menu-wrap.data-v-5f080e82 {
   flex: 1;
